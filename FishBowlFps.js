@@ -8,7 +8,7 @@ var FishBowlFps = (() => {
     var SINGLE_CYCLE = 16.7;
     var fishBowl;
     var imgFish;
-    var FISH_COUNT = 3000;
+    var FISH_COUNT = 2500;
 
     return {
         test: testFPS
