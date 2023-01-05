@@ -44,7 +44,7 @@ var FishBowlFps = (() => {
 
     function getMax60(value) {
         if (value > 58) return 60;
-        return Math.floor(value);
+        return Math.floor(value * 100) / 100;
     }
 
     function Initialize() {
